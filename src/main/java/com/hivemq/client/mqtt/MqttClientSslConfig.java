@@ -67,6 +67,7 @@ public interface MqttClientSslConfig {
      *
      * @return the optional user defined cipher suites.
      */
+    @SuppressWarnings("optional:optional.collection") // optional-collection : use of optional to wrap a collection
     @NotNull Optional<@Immutable List<@NotNull String>> getCipherSuites();
 
     /**
@@ -75,6 +76,7 @@ public interface MqttClientSslConfig {
      *
      * @return the optional user defined protocols.
      */
+    @SuppressWarnings("optional:optional.collection") // optional-collection : use of optional to wrap a collection
     @NotNull Optional<@Immutable List<@NotNull String>> getProtocols();
 
     /**
