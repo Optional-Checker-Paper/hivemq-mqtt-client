@@ -1,3 +1,5 @@
+import org.checkerframework.gradle.plugin.CheckerFrameworkExtension
+
 plugins {
     id("java-library")
     id("com.github.johnrengelman.shadow")
@@ -10,6 +12,7 @@ plugins {
     id("com.github.sgtsilvio.gradle.utf8")
     id("com.github.sgtsilvio.gradle.metadata")
     id("com.github.sgtsilvio.gradle.javadoc-links")
+    id("org.checkerframework") version "0.6.35"
 }
 
 
@@ -60,6 +63,17 @@ allprojects {
 
         plugins.apply("com.github.sgtsilvio.gradle.utf8")
     }
+}
+
+configure<CheckerFrameworkExtension> {
+    checkers = listOf(
+            "org.checkerframework.checker.optional.OptionalChecker"
+    )
+    extraJavacArgs = listOf(
+            "-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno",
+            "-AassumePure"
+    )
+    excludeTests = true
 }
 
 
