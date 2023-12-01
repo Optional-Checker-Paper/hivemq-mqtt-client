@@ -1,3 +1,5 @@
+import net.ltgt.gradle.errorprone.errorprone
+
 plugins {
     id("java-library")
     id("com.github.johnrengelman.shadow")
@@ -10,7 +12,9 @@ plugins {
     id("com.github.sgtsilvio.gradle.utf8")
     id("com.github.sgtsilvio.gradle.metadata")
     id("com.github.sgtsilvio.gradle.javadoc-links")
+    id("net.ltgt.errorprone") version "3.1.0"
 }
+
 
 
 /* ******************** metadata ******************** */
@@ -52,6 +56,13 @@ allprojects {
 /* ******************** java ******************** */
 
 allprojects {
+    plugins.apply("net.ltgt.errorprone")
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        errorprone("com.google.errorprone:error_prone_core:2.23.0")
+    }
     plugins.withId("java") {
         java {
             sourceCompatibility = JavaVersion.VERSION_1_8
@@ -59,6 +70,14 @@ allprojects {
         }
 
         plugins.apply("com.github.sgtsilvio.gradle.utf8")
+    }
+    tasks.withType<JavaCompile>().configureEach {
+      options.errorprone.disableWarningsInGeneratedCode.set(true)
+        options.errorprone.disableAllChecks.set(true)
+        options.errorprone.enable("NullOptional", "NullableOptional",
+          "OptionalMapToOptional", "OptionalNotPresent", "OptionalEquality",
+          "OptionalMapUnusedValue", "OptionalOfRedundantMethod", "UnnecessaryOptionalGet"
+        )
     }
 }
 
