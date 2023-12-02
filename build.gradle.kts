@@ -10,6 +10,7 @@ plugins {
     id("com.github.sgtsilvio.gradle.utf8")
     id("com.github.sgtsilvio.gradle.metadata")
     id("com.github.sgtsilvio.gradle.javadoc-links")
+    id("com.github.spotbugs") version "5.2.5"
 }
 
 
@@ -46,6 +47,14 @@ allprojects {
             issues()
         }
     }
+
+    spotbugs {
+      ignoreFailures.set(false)
+      toolVersion.set("4.8.2")
+      effort.set(com.github.spotbugs.snom.Effort.DEFAULT)
+      reportLevel.set(com.github.spotbugs.snom.Confidence.DEFAULT)
+      reportsDir.set(file("$buildDir/spotbugs"))
+   }
 }
 
 
