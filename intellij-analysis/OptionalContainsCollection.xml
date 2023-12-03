@@ -1,0 +1,41 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/com/hivemq/client/internal/mqtt/MqttClientSslConfigImpl.java</file>
+  <line>93</line>
+  <module>hivemq-mqtt-client.main</module>
+  <package>com.hivemq.client.internal.mqtt</package>
+  <entry_point TYPE="method" FQNAME="com.hivemq.client.internal.mqtt.MqttClientSslConfigImpl java.util.Optional&lt;java.util.List&lt;java.lang.String&gt;&gt; getCipherSuites()" />
+  <problem_class id="OptionalContainsCollection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' contains array or collection</problem_class>
+  <description>'Optional' contains collection &lt;code&gt;List&lt;String&gt;&lt;/code&gt;</description>
+  <highlighted_element>List&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>134</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/com/hivemq/client/internal/mqtt/MqttClientSslConfigImpl.java</file>
+  <line>102</line>
+  <module>hivemq-mqtt-client.main</module>
+  <package>com.hivemq.client.internal.mqtt</package>
+  <entry_point TYPE="method" FQNAME="com.hivemq.client.internal.mqtt.MqttClientSslConfigImpl java.util.Optional&lt;java.util.List&lt;java.lang.String&gt;&gt; getProtocols()" />
+  <problem_class id="OptionalContainsCollection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' contains array or collection</problem_class>
+  <description>'Optional' contains collection &lt;code&gt;List&lt;String&gt;&lt;/code&gt;</description>
+  <highlighted_element>List&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>148</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/com/hivemq/client/mqtt/MqttClientSslConfig.java</file>
+  <line>78</line>
+  <module>hivemq-mqtt-client.main</module>
+  <package>com.hivemq.client.mqtt</package>
+  <entry_point TYPE="method" FQNAME="com.hivemq.client.mqtt.MqttClientSslConfig java.util.Optional&lt;java.util.List&lt;java.lang.String&gt;&gt; getProtocols()" />
+  <problem_class id="OptionalContainsCollection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' contains array or collection</problem_class>
+  <description>'Optional' contains collection &lt;code&gt;@Immutable List&lt;@NotNull String&gt;&lt;/code&gt;</description>
+  <highlighted_element>@Immutable List&lt;@NotNull String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>135</offset>
+  <length>32</length>
+</problem>
+</problems>

@@ -90,6 +90,7 @@ public class MqttClientSslConfigImpl implements MqttClientSslConfig {
     }
 
     @Override
+    @SuppressWarnings("OptionalContainsCollection") // intellij-suppression-optional-contains-collection
     public @NotNull Optional<List<String>> getCipherSuites() {
         return Optional.ofNullable(cipherSuites);
     }
@@ -99,6 +100,7 @@ public class MqttClientSslConfigImpl implements MqttClientSslConfig {
     }
 
     @Override
+    @SuppressWarnings("OptionalContainsCollection") // intellij-suppression-optional-contains-collection
     public @NotNull Optional<List<String>> getProtocols() {
         return Optional.ofNullable(protocols);
     }

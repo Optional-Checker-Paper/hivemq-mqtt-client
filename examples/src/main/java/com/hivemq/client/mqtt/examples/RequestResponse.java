@@ -27,6 +27,7 @@ import com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5Publish;
  */
 public class RequestResponse {
 
+    @SuppressWarnings("OptionalGetWithoutIsPresent") // intellij-suppression-optional-get-without-check-tp
     public static void main(final String[] args) {
         final Mqtt5Client requester = Mqtt5Client.builder().serverHost("broker.hivemq.com").build();
         final Mqtt5Client responder = Mqtt5Client.builder().serverHost("broker.hivemq.com").build();
