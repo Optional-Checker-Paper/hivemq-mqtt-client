@@ -26,8 +26,6 @@ import reactor.core.CoreSubscriber;
 
 /**
  * A {@link CoreWithSingleSubscriber} aware {@link PublisherWithSingle}.
- * <p>
- * {@inheritDoc}
  *
  * @author Silvio Giebl
  * @see PublisherWithSingle
