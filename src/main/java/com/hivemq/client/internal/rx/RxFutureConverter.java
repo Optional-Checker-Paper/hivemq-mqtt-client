@@ -236,7 +236,8 @@ public final class RxFutureConverter {
         @Override
         @SuppressWarnings({
                 "OptionalAssignedToNull",
-                "optional:optional.parameter" // optional-parameter
+                "optional:optional.parameter", // optional-parameter
+                "optional:optional.null.comparison" // optional-null-comparison
         })
         public void accept(final @Nullable Optional<T> t, final @Nullable Throwable throwable) {
             final T t1;
