@@ -90,7 +90,7 @@ public class MqttClientSslConfigImpl implements MqttClientSslConfig {
     }
 
     @Override
-    @SuppressWarnings("optional:optional.collection") // optional-collection : use of optional to wrap a collection
+    @SuppressWarnings("optional:optional.collection") // optional-collection
     public @NotNull Optional<List<String>> getCipherSuites() {
         return Optional.ofNullable(cipherSuites);
     }
@@ -100,7 +100,7 @@ public class MqttClientSslConfigImpl implements MqttClientSslConfig {
     }
 
     @Override
-    @SuppressWarnings("optional:optional.collection") // optional-collection : use of optional to wrap a collection
+    @SuppressWarnings("optional:optional.collection") // optional-collection
     public @NotNull Optional<List<String>> getProtocols() {
         return Optional.ofNullable(protocols);
     }
