@@ -66,7 +66,6 @@ allprojects {
 }
 
 
-
 /* ******************** dependencies ******************** */
 
 dependencies {
