@@ -27,7 +27,7 @@ import com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5Publish;
  */
 public class RequestResponse {
 
-    @SuppressWarnings("optional:method.invocation") // tp-get-empty : requestPublish.getResponseTopic() will return an Optional.ofNullable of a field marked with @Nullable
+    @SuppressWarnings("optional:method.invocation") // true positive: get : requestPublish.getResponseTopic() will return an Optional.ofNullable of a field marked with @Nullable
     public static void main(final String[] args) {
         final Mqtt5Client requester = Mqtt5Client.builder().serverHost("broker.hivemq.com").build();
         final Mqtt5Client responder = Mqtt5Client.builder().serverHost("broker.hivemq.com").build();
