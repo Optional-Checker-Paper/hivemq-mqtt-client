@@ -159,7 +159,7 @@ tasks.named<JavaCompile>("compileIntegrationTestJava") {
 
 tasks.withType<JavaCompile> {
         options.encoding = "UTF-8"	  
-        options.compilerArgs.addAll(listOf("-Xmaxerrs", "99999"))
+        options.compilerArgs.addAll(listOf("-Xmaxerrs", "99999", "-Xmaxwarns", "99999"))
 }	
 
 val integrationTest by tasks.registering(Test::class) {
@@ -342,7 +342,6 @@ allprojects {
         plugins.apply("org.checkerframework")
         configure<CheckerFrameworkExtension> {
             checkers = listOf(
-                    "org.checkerframework.checker.optional.OptionalChecker",
                     "org.checkerframework.common.util.count.report.ReportChecker"
             )
             extraJavacArgs = listOf(
@@ -350,6 +349,7 @@ allprojects {
                     "-AassumePure",
                     "-AwarnUnneededSuppressions",
                     "-AassumeAssertionsAreEnabled",
+                    "-AReportChecker_warns",
                     "-Astubs=${project.projectDir}/reportoptional.astub"
             )
             excludeTests = true
