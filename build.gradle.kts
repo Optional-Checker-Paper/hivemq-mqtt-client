@@ -343,7 +343,7 @@ allprojects {
                     "-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno",
                     "-AassumePure",
                     "-AwarnUnneededSuppressions",
-                    "-AassumeAssertionsAreEnabled",
+                    "-AassumeAssertionsAreEnabled"
             )
             excludeTests = true
             val checkerFrameworkVersion = "3.41.1-SNAPSHOT"
