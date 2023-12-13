@@ -343,7 +343,7 @@ allprojects {
         configure<CheckerFrameworkExtension> {
             checkers = listOf(
                     "org.checkerframework.checker.optional.OptionalChecker",
-                    "org.checkerframework.common.util.report.ReportChecker"
+                    "org.checkerframework.common.util.count.report.ReportChecker"
             )
             extraJavacArgs = listOf(
                     "-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno",
