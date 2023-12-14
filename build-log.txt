@@ -1,0 +1,1128 @@
+> Task :createCheckerFrameworkManifest
+
+> Task :compileJava
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/util/ByteBufferUtil.java:44: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public static @NotNull Optional<ByteBuffer> optionalReadOnly(final @Nullable ByteBuffer byteBuffer) {
+                                                ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/util/ByteBufferUtil.java:44: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public static @NotNull Optional<ByteBuffer> optionalReadOnly(final @Nullable ByteBuffer byteBuffer) {
+                                                ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/util/ByteBufferUtil.java:45: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return (byteBuffer == null) ? Optional.empty() : Optional.of(byteBuffer.asReadOnlyBuffer());
+                                    ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/util/ByteBufferUtil.java:45: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return (byteBuffer == null) ? Optional.empty() : Optional.of(byteBuffer.asReadOnlyBuffer());
+                                                    ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/util/ByteBufferUtil.java:45: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return (byteBuffer == null) ? Optional.empty() : Optional.of(byteBuffer.asReadOnlyBuffer());
+                                                                    ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/util/ByteBufferUtil.java:45: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+        return (byteBuffer == null) ? Optional.empty() : Optional.of(byteBuffer.asReadOnlyBuffer());
+                                                    ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/util/ByteBufferUtil.java:45: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+        return (byteBuffer == null) ? Optional.empty() : Optional.of(byteBuffer.asReadOnlyBuffer());
+                                              ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/util/ByteBufferUtil.java:45: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+        return (byteBuffer == null) ? Optional.empty() : Optional.of(byteBuffer.asReadOnlyBuffer());
+                                                                    ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/util/ByteBufferUtil.java:45: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+        return (byteBuffer == null) ? Optional.empty() : Optional.of(byteBuffer.asReadOnlyBuffer());
+                                                                 ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/disconnect/MqttDisconnect.java:72: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<MqttUtf8String> getServerReference() {
+                                             ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/disconnect/MqttDisconnect.java:72: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<MqttUtf8String> getServerReference() {
+                                             ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/disconnect/MqttDisconnect.java:73: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(serverReference);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/disconnect/MqttDisconnect.java:73: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(serverReference);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/disconnect/MqttDisconnect.java:73: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(serverReference);
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/MqttMessageWithUserProperties.java:73: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        public @NotNull Optional<MqttUtf8String> getReasonString() {
+                                                 ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/MqttMessageWithUserProperties.java:73: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        public @NotNull Optional<MqttUtf8String> getReasonString() {
+                                                 ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/MqttMessageWithUserProperties.java:74: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+            return Optional.ofNullable(reasonString);
+                                      ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/MqttMessageWithUserProperties.java:74: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+            return Optional.ofNullable(reasonString);
+                                      ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/MqttMessageWithUserProperties.java:74: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+            return Optional.ofNullable(reasonString);
+                           ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt5/message/disconnect/Mqtt5Disconnect.java:67: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<MqttUtf8String> getServerReference();
+                                      ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt5/message/disconnect/Mqtt5Disconnect.java:72: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<MqttUtf8String> getReasonString();
+                                      ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConnectionConfig.java:175: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Mqtt5EnhancedAuthMechanism> getEnhancedAuthMechanism() {
+                                                         ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConnectionConfig.java:175: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Mqtt5EnhancedAuthMechanism> getEnhancedAuthMechanism() {
+                                                         ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConnectionConfig.java:176: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(enhancedAuthMechanism);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConnectionConfig.java:176: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(enhancedAuthMechanism);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConnectionConfig.java:176: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(enhancedAuthMechanism);
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt5/Mqtt5ClientConnectionConfig.java:44: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<Mqtt5EnhancedAuthMechanism> getEnhancedAuthMechanism();
+                                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientTransportConfigImpl.java:73: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<InetSocketAddress> getLocalAddress() {
+                                                ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientTransportConfigImpl.java:73: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<InetSocketAddress> getLocalAddress() {
+                                                ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientTransportConfigImpl.java:74: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(localAddress);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientTransportConfigImpl.java:74: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(localAddress);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientTransportConfigImpl.java:74: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(localAddress);
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientTransportConfigImpl.java:82: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<MqttClientSslConfig> getSslConfig() {
+                                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientTransportConfigImpl.java:82: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<MqttClientSslConfig> getSslConfig() {
+                                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientTransportConfigImpl.java:83: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(sslConfig);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientTransportConfigImpl.java:83: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(sslConfig);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientTransportConfigImpl.java:83: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(sslConfig);
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientTransportConfigImpl.java:91: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<MqttWebSocketConfig> getWebSocketConfig() {
+                                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientTransportConfigImpl.java:91: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<MqttWebSocketConfig> getWebSocketConfig() {
+                                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientTransportConfigImpl.java:92: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(webSocketConfig);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientTransportConfigImpl.java:92: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(webSocketConfig);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientTransportConfigImpl.java:92: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(webSocketConfig);
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientTransportConfigImpl.java:100: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<MqttProxyConfig> getProxyConfig() {
+                                              ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientTransportConfigImpl.java:100: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<MqttProxyConfig> getProxyConfig() {
+                                              ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientTransportConfigImpl.java:101: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(proxyConfig);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientTransportConfigImpl.java:101: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(proxyConfig);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientTransportConfigImpl.java:101: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(proxyConfig);
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/MqttClientTransportConfig.java:66: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<InetSocketAddress> getLocalAddress();
+                                         ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/MqttClientTransportConfig.java:71: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<MqttClientSslConfig> getSslConfig();
+                                           ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/MqttClientTransportConfig.java:76: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<MqttWebSocketConfig> getWebSocketConfig();
+                                           ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/MqttClientTransportConfig.java:82: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<MqttProxyConfig> getProxyConfig();
+                                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt5/Mqtt5ClientConfig.java:39: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<Mqtt5ClientConnectionConfig> getConnectionConfig();
+                                                   ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt5/Mqtt5ClientConfig.java:59: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<Mqtt5SimpleAuth> getSimpleAuth();
+                                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt5/Mqtt5ClientConfig.java:74: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<Mqtt5EnhancedAuthMechanism> getEnhancedAuthMechanism();
+                                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt5/Mqtt5ClientConfig.java:89: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<Mqtt5WillPublish> getWillPublish();
+                                        ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/MqttClientConfig.java:51: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<MqttClientIdentifier> getClientIdentifier();
+                                            ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/MqttClientConfig.java:78: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    default @NotNull Optional<MqttClientSslConfig> getSslConfig() {
+                                                   ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/MqttClientConfig.java:78: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    default @NotNull Optional<MqttClientSslConfig> getSslConfig() {
+                                                   ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/MqttClientConfig.java:79: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return getTransportConfig().getSslConfig();
+                                                ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/MqttClientConfig.java:85: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    default @NotNull Optional<MqttWebSocketConfig> getWebSocketConfig() {
+                                                   ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/MqttClientConfig.java:85: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    default @NotNull Optional<MqttWebSocketConfig> getWebSocketConfig() {
+                                                   ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/MqttClientConfig.java:86: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return getTransportConfig().getWebSocketConfig();
+                                                      ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/MqttClientConfig.java:104: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<MqttClientAutoReconnect> getAutomaticReconnect();
+                                               ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/MqttClientConfig.java:131: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<? extends MqttClientConnectionConfig> getConnectionConfig();
+                                                            ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt5/message/connect/Mqtt5Connect.java:95: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<Mqtt5SimpleAuth> getSimpleAuth();
+                                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt5/message/connect/Mqtt5Connect.java:100: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<Mqtt5EnhancedAuthMechanism> getEnhancedAuthMechanism();
+                                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt5/message/connect/Mqtt5Connect.java:105: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<Mqtt5WillPublish> getWillPublish();
+                                        ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt5/message/auth/Mqtt5Auth.java:45: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<MqttUtf8String> getReasonString();
+                                      ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt5/message/auth/Mqtt5EnhancedAuth.java:43: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<ByteBuffer> getData();
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt5/message/connect/connack/Mqtt5ConnAck.java:66: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<MqttClientIdentifier> getAssignedClientIdentifier();
+                                            ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt5/message/connect/connack/Mqtt5ConnAck.java:71: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<Mqtt5EnhancedAuth> getEnhancedAuth();
+                                         ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt5/message/connect/connack/Mqtt5ConnAck.java:81: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<MqttUtf8String> getResponseInformation();
+                                      ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt5/message/connect/connack/Mqtt5ConnAck.java:86: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<MqttUtf8String> getServerReference();
+                                      ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt5/message/connect/connack/Mqtt5ConnAck.java:91: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<MqttUtf8String> getReasonString();
+                                      ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt5/message/auth/Mqtt5SimpleAuth.java:49: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<MqttUtf8String> getUsername();
+                                      ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt5/message/auth/Mqtt5SimpleAuth.java:54: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<ByteBuffer> getPassword();
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt5/message/publish/Mqtt5Publish.java:65: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<ByteBuffer> getPayload();
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt5/message/publish/Mqtt5Publish.java:90: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<Mqtt5PayloadFormatIndicator> getPayloadFormatIndicator();
+                                                   ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt5/message/publish/Mqtt5Publish.java:95: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<MqttUtf8String> getContentType();
+                                      ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt5/message/publish/Mqtt5Publish.java:100: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<MqttTopic> getResponseTopic();
+                                 ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt5/message/publish/Mqtt5Publish.java:105: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<ByteBuffer> getCorrelationData();
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt5/message/publish/pubrec/Mqtt5PubRec.java:45: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<MqttUtf8String> getReasonString();
+                                      ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt5/message/publish/pubrel/Mqtt5PubRel.java:45: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<MqttUtf8String> getReasonString();
+                                      ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt5/message/publish/pubcomp/Mqtt5PubComp.java:45: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<MqttUtf8String> getReasonString();
+                                      ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt5/message/publish/puback/Mqtt5PubAck.java:45: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<MqttUtf8String> getReasonString();
+                                      ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/MqttClientSslConfig.java:57: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<KeyManagerFactory> getKeyManagerFactory();
+                                         ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/MqttClientSslConfig.java:62: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<TrustManagerFactory> getTrustManagerFactory();
+                                           ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/MqttClientSslConfig.java:70: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<@Immutable List<@NotNull String>> getCipherSuites();
+                                                        ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/MqttClientSslConfig.java:78: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<@Immutable List<@NotNull String>> getProtocols();
+                                                        ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/MqttClientSslConfig.java:89: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<HostnameVerifier> getHostnameVerifier();
+                                        ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/MqttClientExecutorConfig.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<Executor> getNettyExecutor();
+                                ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/MqttProxyConfig.java:78: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<String> getUsername();
+                              ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/MqttProxyConfig.java:83: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<String> getPassword();
+                              ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientSslConfigImpl.java:75: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<KeyManagerFactory> getKeyManagerFactory() {
+                                                ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientSslConfigImpl.java:75: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<KeyManagerFactory> getKeyManagerFactory() {
+                                                ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientSslConfigImpl.java:76: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(keyManagerFactory);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientSslConfigImpl.java:76: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(keyManagerFactory);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientSslConfigImpl.java:76: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(keyManagerFactory);
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientSslConfigImpl.java:84: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<TrustManagerFactory> getTrustManagerFactory() {
+                                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientSslConfigImpl.java:84: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<TrustManagerFactory> getTrustManagerFactory() {
+                                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientSslConfigImpl.java:85: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(trustManagerFactory);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientSslConfigImpl.java:85: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(trustManagerFactory);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientSslConfigImpl.java:85: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(trustManagerFactory);
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientSslConfigImpl.java:93: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<List<String>> getCipherSuites() {
+                                           ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientSslConfigImpl.java:93: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<List<String>> getCipherSuites() {
+                                           ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientSslConfigImpl.java:94: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(cipherSuites);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientSslConfigImpl.java:94: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(cipherSuites);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientSslConfigImpl.java:94: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(cipherSuites);
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientSslConfigImpl.java:102: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<List<String>> getProtocols() {
+                                           ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientSslConfigImpl.java:102: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<List<String>> getProtocols() {
+                                           ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientSslConfigImpl.java:103: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(protocols);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientSslConfigImpl.java:103: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(protocols);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientSslConfigImpl.java:103: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(protocols);
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientSslConfigImpl.java:116: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<HostnameVerifier> getHostnameVerifier() {
+                                               ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientSslConfigImpl.java:116: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<HostnameVerifier> getHostnameVerifier() {
+                                               ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientSslConfigImpl.java:117: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(hostnameVerifier);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientSslConfigImpl.java:117: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(hostnameVerifier);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientSslConfigImpl.java:117: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(hostnameVerifier);
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttProxyConfigImpl.java:64: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<String> getUsername() {
+                                     ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttProxyConfigImpl.java:64: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<String> getUsername() {
+                                     ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttProxyConfigImpl.java:65: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(username);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttProxyConfigImpl.java:65: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(username);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttProxyConfigImpl.java:65: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(username);
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttProxyConfigImpl.java:73: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<String> getPassword() {
+                                     ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttProxyConfigImpl.java:73: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<String> getPassword() {
+                                     ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttProxyConfigImpl.java:74: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(password);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttProxyConfigImpl.java:74: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(password);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttProxyConfigImpl.java:74: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(password);
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt5/Mqtt5BlockingClient.java:250: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        @NotNull Optional<Mqtt5Publish> receive(final long timeout, final @NotNull TimeUnit timeUnit)
+                                        ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt5/Mqtt5BlockingClient.java:259: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        @NotNull Optional<Mqtt5Publish> receiveNow();
+                                        ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt5/message/subscribe/suback/Mqtt5SubAck.java:49: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<MqttUtf8String> getReasonString();
+                                      ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt5/message/unsubscribe/unsuback/Mqtt5UnsubAck.java:49: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<MqttUtf8String> getReasonString();
+                                      ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt5/message/publish/Mqtt5PublishResult.java:48: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<Throwable> getError();
+                                 ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt3/message/auth/Mqtt3SimpleAuth.java:54: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<ByteBuffer> getPassword();
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt3/message/publish/Mqtt3Publish.java:63: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<ByteBuffer> getPayload();
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt3/Mqtt3BlockingClient.java:207: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        @NotNull Optional<Mqtt3Publish> receive(final long timeout, final @NotNull TimeUnit timeUnit)
+                                        ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt3/Mqtt3BlockingClient.java:216: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        @NotNull Optional<Mqtt3Publish> receiveNow();
+                                        ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt3/message/connect/Mqtt3Connect.java:79: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<Mqtt3SimpleAuth> getSimpleAuth();
+                                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt3/message/connect/Mqtt3Connect.java:84: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<Mqtt3Publish> getWillPublish();
+                                    ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt3/message/publish/Mqtt3PublishResult.java:44: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<Throwable> getError();
+                                 ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt3/Mqtt3ClientConfig.java:37: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<Mqtt3ClientConnectionConfig> getConnectionConfig();
+                                                   ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt3/Mqtt3ClientConfig.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<Mqtt3SimpleAuth> getSimpleAuth();
+                                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/mqtt/mqtt3/Mqtt3ClientConfig.java:67: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    @NotNull Optional<Mqtt3Publish> getWillPublish();
+                                    ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:105: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<MqttClientIdentifier> getClientIdentifier() {
+                                                   ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:105: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<MqttClientIdentifier> getClientIdentifier() {
+                                                   ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:106: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return (clientIdentifier == MqttClientIdentifierImpl.REQUEST_CLIENT_IDENTIFIER_FROM_SERVER) ? Optional.empty() :
+                                                                                                    ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:106: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return (clientIdentifier == MqttClientIdentifierImpl.REQUEST_CLIENT_IDENTIFIER_FROM_SERVER) ? Optional.empty() :
+                                                                                                                    ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:107: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+                Optional.of(clientIdentifier);
+                           ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:106: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+        return (clientIdentifier == MqttClientIdentifierImpl.REQUEST_CLIENT_IDENTIFIER_FROM_SERVER) ? Optional.empty() :
+                                                                                                                    ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:106: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+        return (clientIdentifier == MqttClientIdentifierImpl.REQUEST_CLIENT_IDENTIFIER_FROM_SERVER) ? Optional.empty() :
+                                                                                                              ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:107: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+                Optional.of(clientIdentifier);
+                           ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:107: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+                Optional.of(clientIdentifier);
+                        ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:134: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Mqtt5SimpleAuth> getSimpleAuth() {
+                                              ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:134: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Mqtt5SimpleAuth> getSimpleAuth() {
+                                              ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:135: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(connectDefaults.simpleAuth);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:135: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(connectDefaults.simpleAuth);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:135: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(connectDefaults.simpleAuth);
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:139: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Mqtt5EnhancedAuthMechanism> getEnhancedAuthMechanism() {
+                                                         ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:139: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Mqtt5EnhancedAuthMechanism> getEnhancedAuthMechanism() {
+                                                         ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:140: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(connectDefaults.enhancedAuthMechanism);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:140: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(connectDefaults.enhancedAuthMechanism);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:140: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(connectDefaults.enhancedAuthMechanism);
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:144: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Mqtt5WillPublish> getWillPublish() {
+                                               ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:144: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Mqtt5WillPublish> getWillPublish() {
+                                               ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:145: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(connectDefaults.willPublish);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:145: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(connectDefaults.willPublish);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:145: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(connectDefaults.willPublish);
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:153: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<MqttClientAutoReconnect> getAutomaticReconnect() {
+                                                      ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:153: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<MqttClientAutoReconnect> getAutomaticReconnect() {
+                                                      ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:156: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+                return Optional.of((MqttClientAutoReconnect) disconnectedListener);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:156: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+                return Optional.of((MqttClientAutoReconnect) disconnectedListener);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:156: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+                return Optional.of((MqttClientAutoReconnect) disconnectedListener);
+                               ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:153: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<MqttClientAutoReconnect> getAutomaticReconnect() {
+                                                      ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:159: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.empty();
+                             ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:159: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+        return Optional.empty();
+                             ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:159: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+        return Optional.empty();
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:227: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Mqtt5ClientConnectionConfig> getConnectionConfig() {
+                                                          ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:227: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Mqtt5ClientConnectionConfig> getConnectionConfig() {
+                                                          ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:228: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(connectionConfig);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:228: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(connectionConfig);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientConfig.java:228: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(connectionConfig);
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientExecutorConfigImpl.java:53: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Executor> getNettyExecutor() {
+                                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientExecutorConfigImpl.java:53: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Executor> getNettyExecutor() {
+                                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientExecutorConfigImpl.java:54: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(nettyExecutor);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientExecutorConfigImpl.java:54: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(nettyExecutor);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttClientExecutorConfigImpl.java:54: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(nettyExecutor);
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/MqttPublishResult.java:50: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Throwable> getError() {
+                                        ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/MqttPublishResult.java:50: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Throwable> getError() {
+                                        ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/MqttPublishResult.java:51: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(error);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/MqttPublishResult.java:51: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(error);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/MqttPublishResult.java:51: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(error);
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/MqttPublish.java:97: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<ByteBuffer> getPayload() {
+                                         ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/MqttPublish.java:97: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<ByteBuffer> getPayload() {
+                                         ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/MqttPublish.java:98: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return ByteBufferUtil.optionalReadOnly(payload);
+                                              ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/MqttPublish.java:131: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Mqtt5PayloadFormatIndicator> getPayloadFormatIndicator() {
+                                                          ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/MqttPublish.java:131: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Mqtt5PayloadFormatIndicator> getPayloadFormatIndicator() {
+                                                          ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/MqttPublish.java:132: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(payloadFormatIndicator);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/MqttPublish.java:132: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(payloadFormatIndicator);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/MqttPublish.java:132: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(payloadFormatIndicator);
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/MqttPublish.java:140: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<MqttUtf8String> getContentType() {
+                                             ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/MqttPublish.java:140: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<MqttUtf8String> getContentType() {
+                                             ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/MqttPublish.java:141: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(contentType);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/MqttPublish.java:141: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(contentType);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/MqttPublish.java:141: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(contentType);
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/MqttPublish.java:149: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<MqttTopic> getResponseTopic() {
+                                        ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/MqttPublish.java:149: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<MqttTopic> getResponseTopic() {
+                                        ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/MqttPublish.java:150: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(responseTopic);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/MqttPublish.java:150: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(responseTopic);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/MqttPublish.java:150: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(responseTopic);
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/MqttPublish.java:158: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<ByteBuffer> getCorrelationData() {
+                                         ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/MqttPublish.java:158: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<ByteBuffer> getCorrelationData() {
+                                         ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/MqttPublish.java:159: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return ByteBufferUtil.optionalReadOnly(correlationData);
+                                              ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/MqttConnect.java:97: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Mqtt5SimpleAuth> getSimpleAuth() {
+                                              ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/MqttConnect.java:97: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Mqtt5SimpleAuth> getSimpleAuth() {
+                                              ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/MqttConnect.java:98: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(simpleAuth);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/MqttConnect.java:98: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(simpleAuth);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/MqttConnect.java:98: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(simpleAuth);
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/MqttConnect.java:106: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Mqtt5EnhancedAuthMechanism> getEnhancedAuthMechanism() {
+                                                         ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/MqttConnect.java:106: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Mqtt5EnhancedAuthMechanism> getEnhancedAuthMechanism() {
+                                                         ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/MqttConnect.java:107: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(enhancedAuthMechanism);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/MqttConnect.java:107: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(enhancedAuthMechanism);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/MqttConnect.java:107: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(enhancedAuthMechanism);
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/MqttConnect.java:115: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Mqtt5WillPublish> getWillPublish() {
+                                               ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/MqttConnect.java:115: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Mqtt5WillPublish> getWillPublish() {
+                                               ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/MqttConnect.java:116: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(willPublish);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/MqttConnect.java:116: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(willPublish);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/MqttConnect.java:116: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(willPublish);
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/auth/MqttSimpleAuth.java:46: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<MqttUtf8String> getUsername() {
+                                             ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/auth/MqttSimpleAuth.java:46: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<MqttUtf8String> getUsername() {
+                                             ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/auth/MqttSimpleAuth.java:47: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(username);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/auth/MqttSimpleAuth.java:47: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(username);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/auth/MqttSimpleAuth.java:47: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(username);
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/auth/MqttSimpleAuth.java:55: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<ByteBuffer> getPassword() {
+                                         ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/auth/MqttSimpleAuth.java:55: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<ByteBuffer> getPassword() {
+                                         ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/auth/MqttSimpleAuth.java:56: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return ByteBufferUtil.optionalReadOnly(password);
+                                              ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/auth/MqttEnhancedAuth.java:50: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<ByteBuffer> getData() {
+                                         ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/auth/MqttEnhancedAuth.java:50: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<ByteBuffer> getData() {
+                                         ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/auth/MqttEnhancedAuth.java:51: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return ByteBufferUtil.optionalReadOnly(data);
+                                              ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/connack/MqttConnAck.java:106: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<MqttClientIdentifier> getAssignedClientIdentifier() {
+                                                   ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/connack/MqttConnAck.java:106: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<MqttClientIdentifier> getAssignedClientIdentifier() {
+                                                   ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/connack/MqttConnAck.java:107: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(assignedClientIdentifier);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/connack/MqttConnAck.java:107: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(assignedClientIdentifier);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/connack/MqttConnAck.java:107: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(assignedClientIdentifier);
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/connack/MqttConnAck.java:115: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Mqtt5EnhancedAuth> getEnhancedAuth() {
+                                                ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/connack/MqttConnAck.java:115: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Mqtt5EnhancedAuth> getEnhancedAuth() {
+                                                ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/connack/MqttConnAck.java:116: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(enhancedAuth);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/connack/MqttConnAck.java:116: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(enhancedAuth);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/connack/MqttConnAck.java:116: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(enhancedAuth);
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/connack/MqttConnAck.java:129: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<MqttUtf8String> getResponseInformation() {
+                                             ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/connack/MqttConnAck.java:129: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<MqttUtf8String> getResponseInformation() {
+                                             ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/connack/MqttConnAck.java:130: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(responseInformation);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/connack/MqttConnAck.java:130: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(responseInformation);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/connack/MqttConnAck.java:130: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(responseInformation);
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/connack/MqttConnAck.java:134: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<MqttUtf8String> getServerReference() {
+                                             ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/connack/MqttConnAck.java:134: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<MqttUtf8String> getServerReference() {
+                                             ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/connack/MqttConnAck.java:135: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(serverReference);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/connack/MqttConnAck.java:135: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(serverReference);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/connack/MqttConnAck.java:135: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(serverReference);
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/auth/MqttAuth.java:62: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<ByteBuffer> getData() {
+                                         ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/auth/MqttAuth.java:62: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<ByteBuffer> getData() {
+                                         ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/auth/MqttAuth.java:63: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return ByteBufferUtil.optionalReadOnly(data);
+                                              ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/mqtt3/Mqtt3ClientConfigView.java:60: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<MqttClientIdentifier> getClientIdentifier() {
+                                                   ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/mqtt3/Mqtt3ClientConfigView.java:60: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<MqttClientIdentifier> getClientIdentifier() {
+                                                   ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/mqtt3/Mqtt3ClientConfigView.java:61: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return delegate.getClientIdentifier();
+                                           ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/mqtt3/Mqtt3ClientConfigView.java:75: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<MqttClientAutoReconnect> getAutomaticReconnect() {
+                                                      ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/mqtt3/Mqtt3ClientConfigView.java:75: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<MqttClientAutoReconnect> getAutomaticReconnect() {
+                                                      ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/mqtt3/Mqtt3ClientConfigView.java:76: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return delegate.getAutomaticReconnect();
+                                             ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/mqtt3/Mqtt3ClientConfigView.java:80: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Mqtt3SimpleAuth> getSimpleAuth() {
+                                              ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/mqtt3/Mqtt3ClientConfigView.java:80: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Mqtt3SimpleAuth> getSimpleAuth() {
+                                              ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/mqtt3/Mqtt3ClientConfigView.java:81: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(getRawSimpleAuth());
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/mqtt3/Mqtt3ClientConfigView.java:81: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(getRawSimpleAuth());
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/mqtt3/Mqtt3ClientConfigView.java:81: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(getRawSimpleAuth());
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/mqtt3/Mqtt3ClientConfigView.java:90: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Mqtt3Publish> getWillPublish() {
+                                           ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/mqtt3/Mqtt3ClientConfigView.java:90: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Mqtt3Publish> getWillPublish() {
+                                           ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/mqtt3/Mqtt3ClientConfigView.java:91: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(getRawWillPublish());
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/mqtt3/Mqtt3ClientConfigView.java:91: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(getRawWillPublish());
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/mqtt3/Mqtt3ClientConfigView.java:91: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(getRawWillPublish());
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/mqtt3/Mqtt3ClientConfigView.java:115: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Mqtt3ClientConnectionConfig> getConnectionConfig() {
+                                                          ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/mqtt3/Mqtt3ClientConfigView.java:115: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Mqtt3ClientConnectionConfig> getConnectionConfig() {
+                                                          ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/mqtt3/Mqtt3ClientConfigView.java:116: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(delegate.getRawConnectionConfig());
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/mqtt3/Mqtt3ClientConfigView.java:116: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(delegate.getRawConnectionConfig());
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/mqtt3/Mqtt3ClientConfigView.java:116: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(delegate.getRawConnectionConfig());
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/mqtt3/Mqtt3ConnectView.java:92: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Mqtt3SimpleAuth> getSimpleAuth() {
+                                              ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/mqtt3/Mqtt3ConnectView.java:92: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Mqtt3SimpleAuth> getSimpleAuth() {
+                                              ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/mqtt3/Mqtt3ConnectView.java:93: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(getRawSimpleAuth());
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/mqtt3/Mqtt3ConnectView.java:93: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(getRawSimpleAuth());
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/mqtt3/Mqtt3ConnectView.java:93: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(getRawSimpleAuth());
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/mqtt3/Mqtt3ConnectView.java:102: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Mqtt3Publish> getWillPublish() {
+                                           ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/mqtt3/Mqtt3ConnectView.java:102: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Mqtt3Publish> getWillPublish() {
+                                           ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/mqtt3/Mqtt3ConnectView.java:103: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(getRawWillPublish());
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/mqtt3/Mqtt3ConnectView.java:103: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(getRawWillPublish());
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/connect/mqtt3/Mqtt3ConnectView.java:103: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(getRawWillPublish());
+                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/mqtt3/Mqtt3PublishView.java:104: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<ByteBuffer> getPayload() {
+                                         ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/mqtt3/Mqtt3PublishView.java:104: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<ByteBuffer> getPayload() {
+                                         ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/mqtt3/Mqtt3PublishView.java:105: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return delegate.getPayload();
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/auth/mqtt3/Mqtt3SimpleAuthView.java:65: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<ByteBuffer> getPassword() {
+                                         ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/auth/mqtt3/Mqtt3SimpleAuthView.java:65: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<ByteBuffer> getPassword() {
+                                         ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/auth/mqtt3/Mqtt3SimpleAuthView.java:66: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return delegate.getPassword();
+                                   ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/mqtt3/Mqtt3PublishResultView.java:53: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Throwable> getError() {
+                                        ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/mqtt3/Mqtt3PublishResultView.java:53: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public @NotNull Optional<Throwable> getError() {
+                                        ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/mqtt3/Mqtt3PublishResultView.java:54: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return delegate.getError().map(Mqtt3ExceptionFactory.MAPPER_JAVA);
+                                      ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/mqtt3/Mqtt3PublishResultView.java:54: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+        return delegate.getError().map(Mqtt3ExceptionFactory.MAPPER_JAVA);
+                                      ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/mqtt3/Mqtt3PublishResultView.java:54: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+        return delegate.getError().map(Mqtt3ExceptionFactory.MAPPER_JAVA);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/mqtt3/Mqtt3PublishResultView.java:58: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+        return "publish=" + getPublish() + ((!getError().isPresent()) ? "" : ", error=" + getError().get());
+                                                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/mqtt3/Mqtt3PublishResultView.java:58: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+        return "publish=" + getPublish() + ((!getError().isPresent()) ? "" : ", error=" + getError().get());
+                                                        ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/mqtt3/Mqtt3PublishResultView.java:58: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+        return "publish=" + getPublish() + ((!getError().isPresent()) ? "" : ", error=" + getError().get());
+                                                                                                        ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/message/publish/mqtt3/Mqtt3PublishResultView.java:58: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+        return "publish=" + getPublish() + ((!getError().isPresent()) ? "" : ", error=" + getError().get());
+                                                                                                    ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttBlockingClient.java:319: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        public @NotNull Optional<Mqtt5Publish> receive(final long timeout, final @Nullable TimeUnit timeUnit)
+                                               ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttBlockingClient.java:319: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        public @NotNull Optional<Mqtt5Publish> receive(final long timeout, final @Nullable TimeUnit timeUnit)
+                                               ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttBlockingClient.java:334: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+                    return Optional.of(publish);
+                                      ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttBlockingClient.java:334: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+                    return Optional.of(publish);
+                                      ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttBlockingClient.java:334: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+                    return Optional.of(publish);
+                                   ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttBlockingClient.java:319: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        public @NotNull Optional<Mqtt5Publish> receive(final long timeout, final @Nullable TimeUnit timeUnit)
+                                               ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttBlockingClient.java:348: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+                return Optional.of((Mqtt5Publish) result);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttBlockingClient.java:348: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+                return Optional.of((Mqtt5Publish) result);
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttBlockingClient.java:348: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+                return Optional.of((Mqtt5Publish) result);
+                               ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttBlockingClient.java:319: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        public @NotNull Optional<Mqtt5Publish> receive(final long timeout, final @Nullable TimeUnit timeUnit)
+                                               ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttBlockingClient.java:356: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+            return Optional.empty();
+                                 ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttBlockingClient.java:356: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+            return Optional.empty();
+                                 ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttBlockingClient.java:356: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+            return Optional.empty();
+                           ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttBlockingClient.java:360: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        public @NotNull Optional<Mqtt5Publish> receiveNow() {
+                                               ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttBlockingClient.java:360: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        public @NotNull Optional<Mqtt5Publish> receiveNow() {
+                                               ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttBlockingClient.java:368: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+            return Optional.ofNullable(publish);
+                                      ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttBlockingClient.java:368: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+            return Optional.ofNullable(publish);
+                                      ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/MqttBlockingClient.java:368: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+            return Optional.ofNullable(publish);
+                           ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/mqtt3/Mqtt3BlockingClientView.java:189: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        public @NotNull Optional<Mqtt3Publish> receive(
+                                               ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/mqtt3/Mqtt3BlockingClientView.java:189: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        public @NotNull Optional<Mqtt3Publish> receive(
+                                               ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/mqtt3/Mqtt3BlockingClientView.java:198: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+                return delegate.receive(timeout, timeUnit).map(Mqtt3PublishView.JAVA_MAPPER);
+                                                              ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/mqtt3/Mqtt3BlockingClientView.java:198: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+                return delegate.receive(timeout, timeUnit).map(Mqtt3PublishView.JAVA_MAPPER);
+                                                              ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/mqtt3/Mqtt3BlockingClientView.java:198: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+                return delegate.receive(timeout, timeUnit).map(Mqtt3PublishView.JAVA_MAPPER);
+                                                          ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/mqtt3/Mqtt3BlockingClientView.java:205: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        public @NotNull Optional<Mqtt3Publish> receiveNow() {
+                                               ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/mqtt3/Mqtt3BlockingClientView.java:205: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        public @NotNull Optional<Mqtt3Publish> receiveNow() {
+                                               ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/mqtt3/Mqtt3BlockingClientView.java:207: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+                return delegate.receiveNow().map(Mqtt3PublishView.JAVA_MAPPER);
+                                                ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/mqtt3/Mqtt3BlockingClientView.java:207: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+                return delegate.receiveNow().map(Mqtt3PublishView.JAVA_MAPPER);
+                                                ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/mqtt/mqtt3/Mqtt3BlockingClientView.java:207: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+                return delegate.receiveNow().map(Mqtt3PublishView.JAVA_MAPPER);
+                                            ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/rx/RxFutureConverter.java:38: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public static <T> @NotNull CompletableFuture<@NotNull Optional<T>> toFuture(final @NotNull Maybe<T> maybe) {
+                                                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/rx/RxFutureConverter.java:38: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public static <T> @NotNull CompletableFuture<@NotNull Optional<T>> toFuture(final @NotNull Maybe<T> maybe) {
+                                                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/rx/RxFutureConverter.java:89: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    private static class RxMaybeFuture<T> extends RxFuture<Optional<T>> implements MaybeObserver<T> {
+                                                                   ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/rx/RxFutureConverter.java:98: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+                complete(Optional.of(t));
+                                    ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/rx/RxFutureConverter.java:98: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+                complete(Optional.of(t));
+                                    ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/rx/RxFutureConverter.java:98: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+                complete(Optional.of(t));
+                                 ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/rx/RxFutureConverter.java:105: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+                complete(Optional.empty());
+                                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/rx/RxFutureConverter.java:105: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+                complete(Optional.empty());
+                                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/rx/RxFutureConverter.java:105: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+                complete(Optional.empty());
+                                 ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/rx/RxFutureConverter.java:128: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public static <T> @NotNull Maybe<T> toMaybe(final @NotNull CompletableFuture<@NotNull Optional<T>> future) {
+                                                                                                  ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/rx/RxFutureConverter.java:129: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return new FutureMaybe<>(future);
+                                 ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/rx/RxFutureConverter.java:204: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    private static class FutureMaybe<T> extends Maybe<T> implements Disposable, BiConsumer<Optional<T>, Throwable> {
+                                                                                                   ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/rx/RxFutureConverter.java:206: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        private final @NotNull CompletableFuture<Optional<T>> future;
+                                                         ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/rx/RxFutureConverter.java:212: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        FutureMaybe(final @NotNull CompletableFuture<Optional<T>> future) {
+                                                             ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/rx/RxFutureConverter.java:213: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+            this.future = future;
+                ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/rx/RxFutureConverter.java:213: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+            this.future = future;
+                          ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/rx/RxFutureConverter.java:228: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+            RxFutureConverter.dispose(done, future);
+                                            ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/rx/RxFutureConverter.java:238: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        public void accept(final @Nullable Optional<T> t, final @Nullable Throwable throwable) {
+                                                       ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/rx/RxFutureConverter.java:246: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+                    t1 = t.orElse(null);
+                                 ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/src/main/java/com/hivemq/client/internal/rx/RxFutureConverter.java:246: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+                    t1 = t.orElse(null);
+                          ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+355 warnings
+
+> Task :processResources
+> Task :classes
+
+> Task :jar
+warning: Export com.hivemq.client.mqtt.exceptions,  has 1,  private references [com.hivemq.client.internal.util]
+warning: Export com.hivemq.client.mqtt.mqtt3.exceptions,  has 1,  private references [com.hivemq.client.internal.util]
+warning: Export com.hivemq.client.mqtt.mqtt5.exceptions,  has 1,  private references [com.hivemq.client.internal.util]
+
+> Task :javadocLinks
+> Task :javadoc
+> Task :javadocJar
+> Task :sourcesJar
+> Task :assemble
+> Task :hivemq-mqtt-client-epoll:assemble UP-TO-DATE
+> Task :hivemq-mqtt-client-examples:createCheckerFrameworkManifest
+
+> Task :hivemq-mqtt-client-examples:compileJava
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/examples/src/main/java/com/hivemq/client/mqtt/examples/RequestResponse.java:46: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+                                .correlationData(requestPublish.getCorrelationData().orElse(null))
+                                                                                           ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/examples/src/main/java/com/hivemq/client/mqtt/examples/RequestResponse.java:46: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+                                .correlationData(requestPublish.getCorrelationData().orElse(null))
+                                                                                    ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/examples/src/main/java/com/hivemq/client/mqtt/examples/RequestResponse.java:43: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+                                .topic(requestPublish.getResponseTopic().get())
+                                                                            ^
+/tmp/experiments/optional-paper-counts-repos/hivemq-mqtt-client/examples/src/main/java/com/hivemq/client/mqtt/examples/RequestResponse.java:43: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+                                .topic(requestPublish.getResponseTopic().get())
+                                                                        ^
+4 warnings
+
+> Task :hivemq-mqtt-client-examples:processResources NO-SOURCE
+> Task :hivemq-mqtt-client-examples:classes
+> Task :hivemq-mqtt-client-examples:jar
+> Task :hivemq-mqtt-client-examples:assemble
+> Task :hivemq-mqtt-client-proxy:assemble UP-TO-DATE
+> Task :hivemq-mqtt-client-reactor:createCheckerFrameworkManifest
+
+> Task :hivemq-mqtt-client-reactor:compileJava
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :hivemq-mqtt-client-reactor:processResources NO-SOURCE
+> Task :hivemq-mqtt-client-reactor:classes
+> Task :hivemq-mqtt-client-reactor:jar
+> Task :hivemq-mqtt-client-reactor:javadocLinks
+> Task :hivemq-mqtt-client-reactor:javadoc
+> Task :hivemq-mqtt-client-reactor:javadocJar
+> Task :hivemq-mqtt-client-reactor:sourcesJar
+> Task :hivemq-mqtt-client-reactor:assemble
+> Task :hivemq-mqtt-client-websocket:assemble UP-TO-DATE
+
+BUILD SUCCESSFUL in 25s
+18 actionable tasks: 18 executed
