@@ -350,6 +350,7 @@ allprojects {
                     "-AwarnUnneededSuppressions",
                     "-AassumeAssertionsAreEnabled",
                     "-AReportChecker_warns",
+                    "-Xmaxwarns", "99999",
                     "-Astubs=${project.projectDir}/reportoptional.astub"
             )
             excludeTests = true

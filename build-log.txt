@@ -1124,5 +1124,5 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :hivemq-mqtt-client-reactor:assemble
 > Task :hivemq-mqtt-client-websocket:assemble UP-TO-DATE
 
-BUILD SUCCESSFUL in 25s
+BUILD SUCCESSFUL in 22s
 18 actionable tasks: 18 executed
