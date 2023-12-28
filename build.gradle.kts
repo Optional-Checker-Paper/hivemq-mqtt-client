@@ -22,6 +22,7 @@ allprojects {
             "Java client library with different API flavours and backpressure support"
 
     plugins.apply("com.github.sgtsilvio.gradle.metadata")
+    plugins.apply("com.github.spotbugs")
 
     metadata {
         moduleName.set("com.hivemq.client.mqtt")
